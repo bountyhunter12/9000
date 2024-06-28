@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/abstract-geometric-background-shapes-texture.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #e0e1dd;
+}
+
+.btn{
+    margin: 15px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #ccc;
+    color: #000;
+    border-radius: .5rem;
+    border: none;
+}
+
+.btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #000;
+    color: #ccc;
+}
+
+.cc {
+    margin-top: 20px;
+}
+
+.message {
+    color: #820c0c;
+    font-size: 20px;
+    font-weight: 700;
+    animation: blink 1s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+    0%, 90% {
+        opacity: 1;
+    }
+    91%, 100% {
+        opacity: 0;
+    }
+}
+
+
+.cc button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+#box {
+    display: inline-block;
+}
+
+.grid-cell {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+
+.grid-cell.ship {
+    background-color: red;
+    color: white;
+}

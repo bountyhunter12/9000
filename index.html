@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9000 Field Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>9000 Field Game</h1>
+        <div id="box"></div>
+        <div class="cc">
+            <button type="button" class="btn" onclick="move('U')">Up</button>
+            <button type="button" class="btn" onclick="move('L')">Left</button>
+            <button type="button" class="btn" onclick="move('R')">Right</button>
+            <button type="button" class="btn" onclick="move('D')">Down</button>
+            <button type="button" class="btn" onclick="quit()">Quit</button>
+        </div>
+        <p id="message" class="message"></p>
+        <button type="button" class="btn"  onclick="reset()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
